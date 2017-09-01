@@ -5,7 +5,7 @@
 			fetch="https://github.com/"
 			revision="cm-12.1" />
 
-	<!-- remove -->
+	<!-- remove projects -->
 	<remove-project name="LineageOS/android_build" />
 	<remove-project name="LineageOS/android" />
 	<remove-project name="LineageOS/android_bionic" />
@@ -103,7 +103,7 @@
 	<remove-project name="platform/external/pdfium" />
 	<remove-project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" />
 
-	<!-- add -->
+	<!-- add projects from github.com/lp-huawei-omap4 -->
 	<project path="build" name="lp-huawei-omap4/android_build" groups="pdk,tradefed" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
@@ -125,8 +125,6 @@
 	<project path="vendor/cm" name="lp-huawei-omap4/android_vendor_cm" />
 	<project name="lp-huawei-omap4/android_kernel_d1_p1" path="kernel/huawei/omap4" />
 	<project name="lp-huawei-omap4/device_huawei_omap4-common" path="device/huawei/omap4-common" />
-	<project name="lp-huawei-omap4/device_huawei_U9500" path="device/huawei/front" revision="cm-12.1_ru_en_ua" />
-	<project name="lp-huawei-omap4/device_huawei_U9200" path="device/huawei/viva" />
 	<project name="lp-huawei-omap4/vendor_huawei_omap4-common" path="vendor/huawei/omap4-common" />
 	<project name="lp-huawei-omap4/android_hardware_ti_huawei-omap4" path="hardware/ti/huawei-omap4" />
 	<project name="lp-huawei-omap4/proprietary_vendor_ti" path="vendor/ti" revision="stable" />
@@ -162,5 +160,8 @@
 	<project path="external/sfntly" name="lp-huawei-omap4/android_external_sfntly" />
 	<project path="external/pdfium" name="lp-huawei-omap4/android_external_pdfium" />
 	<project path="external/chromium_org/third_party/boringssl/src" name="lp-huawei-omap4/android_external_chromium_org_third_party_boringssl_src" />
+
+	<!-- add projects from github.com/gkourachanis -->
+	<project name="gkourachanis/device_huawei_U9200" path="device/huawei/viva" />
 
 </manifest>
