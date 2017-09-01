@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="LP-U9200"
+			fetch="https://github.com/"
+			revision="cm-12.1" />
+
+	<!-- remove -->
+	<remove-project name="LineageOS/android_build" />
+	<remove-project name="LineageOS/android" />
+	<remove-project name="LineageOS/android_bionic" />
+	<remove-project name="LineageOS/android_external_freetype" />
+	<remove-project name="LineageOS/android_external_openssh" />
+	<remove-project name="LineageOS/android_external_sqlite" />
+	<remove-project name="LineageOS/android_frameworks_av" />
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<remove-project name="LineageOS/android_frameworks_native" />
+	<remove-project name="platform/hardware/intel/audio_media" />
+	<remove-project name="platform/hardware/intel/bootstub" />
+	<remove-project name="platform/hardware/intel/common/bd_prov" />
+	<remove-project name="LineageOS/android_hardware_intel_common_libmix" />
+	<remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+	<remove-project name="platform/hardware/intel/common/libva" />
+	<remove-project name="platform/hardware/intel/common/libwsbm" />
+	<remove-project name="platform/hardware/intel/common/omx-components" />
+	<remove-project name="platform/hardware/intel/common/utils" />
+	<remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+	<remove-project name="LineageOS/android_hardware_intel_img_hwcomposer" />
+	<remove-project name="LineageOS/android_hardware_intel_img_libdrm" />
+	<remove-project name="platform/hardware/intel/img/psb_headers" />
+	<remove-project name="platform/hardware/intel/img/psb_video" />
+	<remove-project name="LineageOS/android_hardware_nvidia_audio" />
+	<remove-project name="LineageOS/android_hardware_nvidia_tegra124" />
+	<remove-project name="LineageOS/android_hardware_qcom_audio" />
+	<remove-project name="LineageOS/android_hardware_qcom_bt" />
+	<remove-project name="LineageOS/android_hardware_qcom_display" />
+	<remove-project name="LineageOS/android_hardware_qcom_gps" />
+	<remove-project name="LineageOS/android_hardware_qcom_keymaster" />
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<remove-project name="platform/hardware/qcom/msm8960" />
+	<remove-project name="platform/hardware/qcom/msm8x26" />
+	<remove-project name="platform/hardware/qcom/msm8x27" />
+	<remove-project name="platform/hardware/qcom/msm8x74" />
+	<remove-project name="platform/hardware/qcom/msm8x84" />
+	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
+	<remove-project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
+	<remove-project name="LineageOS/android_hardware_ti_omap4" />
+	<remove-project name="platform/hardware/ti/omap4-aah" />
+	<remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
+	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
+	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+	<remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+	<remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+	<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+	<remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+	<remove-project name="LineageOS/android_vendor_cm" />
+	<remove-project name="LineageOS/android_cts" />
+	<remove-project name="LineageOS/android_packages_services_Telephony" />
+	<remove-project name="LineageOS/android_art" />
+	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
+	<remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+	<remove-project name="LineageOS/android_packages_apps_LockClock" />
+	<remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+	<remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+	<remove-project name="LineageOS/android_packages_apps_Dialer" />
+	<remove-project name="LineageOS/android_system_core" />
+	<remove-project name="LineageOS/android_frameworks_ex" />
+	<remove-project name="platform/external/libnl" />
+	<remove-project name="LineageOS/android_external_tremolo" />
+	<remove-project name="LineageOS/android_external_libvpx" />
+	<remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+	<remove-project name="platform/external/libopus" />
+	<remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+	<remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
+	<remove-project name="LineageOS/android_external_openssl" />
+	<remove-project name="platform/external/libhevc" />
+	<remove-project name="LineageOS/android_external_sonivox" />
+	<remove-project name="LineageOS/android_external_skia" />
+	<remove-project name="LineageOS/android_external_bluetooth_bluedroid" />
+	<remove-project name="platform/external/giflib" />
+	<remove-project name="LineageOS/android_external_libxml2" />
+	<remove-project name="LineageOS/android_hardware_libhardware" />
+	<remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
+	<remove-project name="platform/external/sfntly" />
+	<remove-project name="platform/external/pdfium" />
+	<remove-project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" />
+
+	<!-- add -->
+	<project path="build" name="lp-huawei-omap4/android_build" groups="pdk,tradefed" >
+		<copyfile src="core/root.mk" dest="Makefile" />
+	</project>
+	<project path="android" name="lp-huawei-omap4/android" />
+	<project path="bionic" name="lp-huawei-omap4/android_bionic" />
+	<project path="external/freetype" name="lp-huawei-omap4/android_external_freetype" groups="pdk" />
+	<project path="external/openssh" name="lp-huawei-omap4/android_external_openssh" />
+	<project path="external/sqlite" name="lp-huawei-omap4/android_external_sqlite" groups="pdk" />
+	<project path="frameworks/av" name="lp-huawei-omap4/android_frameworks_av" groups="pdk" />
+	<project path="frameworks/base" name="lp-huawei-omap4/android_frameworks_base" />
+	<project path="frameworks/native" name="lp-huawei-omap4/android_frameworks_native" groups="pdk" />
+	<project path="packages/apps/Gallery2" name="lp-huawei-omap4/android_packages_apps_Gallery2" />
+	<project path="packages/apps/Settings" name="lp-huawei-omap4/android_packages_apps_Settings" />
+	<project path="packages/apps/Snap" name="lp-huawei-omap4/android_packages_apps_Snap" />
+	<project path="packages/apps/ThemeChooser" name="lp-huawei-omap4/android_packages_apps_ThemeChooser" />
+	<project path="packages/apps/Trebuchet" name="lp-huawei-omap4/android_packages_apps_Trebuchet" />
+	<project path="packages/providers/ThemesProvider" name="lp-huawei-omap4/android_packages_providers_ThemesProvider" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="lp-huawei-omap4/gcc-linaro" revision="gcc-6.3" />
+	<project path="vendor/cm" name="lp-huawei-omap4/android_vendor_cm" />
+	<project name="lp-huawei-omap4/android_kernel_d1_p1" path="kernel/huawei/omap4" />
+	<project name="lp-huawei-omap4/device_huawei_omap4-common" path="device/huawei/omap4-common" />
+	<project name="lp-huawei-omap4/device_huawei_U9500" path="device/huawei/front" revision="cm-12.1_ru_en_ua" />
+	<project name="lp-huawei-omap4/device_huawei_U9200" path="device/huawei/viva" />
+	<project name="lp-huawei-omap4/vendor_huawei_omap4-common" path="vendor/huawei/omap4-common" />
+	<project name="lp-huawei-omap4/android_hardware_ti_huawei-omap4" path="hardware/ti/huawei-omap4" />
+	<project name="lp-huawei-omap4/proprietary_vendor_ti" path="vendor/ti" revision="stable" />
+	<project name="lp-huawei-omap4/proprietary_vendor_widevine" path="vendor/widevine" revision="aosp-5.1" />
+	<project name="lp-huawei-omap4/vendor_prebuilding_apps" path="vendor/prebuilding_apps" />
+	<project path="cts" name="lp-huawei-omap4/android_cts" groups="cts,pdk-cw-fs" />
+	<project path="packages/services/Telephony" name="lp-huawei-omap4/android_packages_services_Telephony" />
+	<project path="art" name="lp-huawei-omap4/android_art" groups="pdk" />
+	<project path="frameworks/opt/telephony" name="lp-huawei-omap4/android_frameworks_opt_telephony" groups="pdk" />
+	<project path="packages/apps/PackageInstaller" name="lp-huawei-omap4/android_packages_apps_PackageInstaller" />
+	<project path="packages/apps/LockClock" name="lp-huawei-omap4/android_packages_apps_LockClock" />
+	<project path="packages/apps/SetupWizard" name="lp-huawei-omap4/android_packages_apps_SetupWizard" />
+	<project path="frameworks/opt/net/wifi" name="lp-huawei-omap4/android_frameworks_opt_net_wifi" />
+	<project path="packages/apps/Dialer" name="lp-huawei-omap4/android_packages_apps_Dialer" />
+	<project path="system/core" name="lp-huawei-omap4/android_system_core" />
+	<project path="frameworks/ex" name="lp-huawei-omap4/android_frameworks_ex" />
+	<project path="external/libnl" name="lp-huawei-omap4/android_external_libnl" />
+	<project path="external/tremolo" name="lp-huawei-omap4/android_external_tremolo" />
+	<project path="external/libvpx" name="lp-huawei-omap4/android_external_libvpx" />
+	<project path="packages/apps/ContactsCommon" name="lp-huawei-omap4/android_packages_apps_ContactsCommon" />
+	<project path="external/libopus" name="lp-huawei-omap4/android_external_libopus" />
+	<project path="packages/apps/Bluetooth" name="lp-huawei-omap4/android_packages_apps_Bluetooth" />
+	<project path="packages/apps/UnifiedEmail" name="lp-huawei-omap4/android_packages_apps_UnifiedEmail" />
+	<project path="external/openssl" name="lp-huawei-omap4/android_external_openssl" />
+	<project path="external/libhevc" name="lp-huawei-omap4/android_external_libhevc" />
+	<project path="external/sonivox" name="lp-huawei-omap4/android_external_sonivox" />
+	<project path="external/skia" name="lp-huawei-omap4/android_external_skia" />
+	<project path="external/bluetooth/bluedroid" name="lp-huawei-omap4/android_external_bluetooth_bluedroid" />
+	<project path="external/giflib" name="lp-huawei-omap4/android_external_giflib" />
+	<project path="external/libxml2" name="lp-huawei-omap4/android_external_libxml2" />
+	<project path="hardware/libhardware" name="lp-huawei-omap4/android_hardware_libhardware" />
+	<project path="packages/providers/DownloadProvider" name="lp-huawei-omap4/android_packages_providers_DownloadProvider" />
+	<project path="external/sfntly" name="lp-huawei-omap4/android_external_sfntly" />
+	<project path="external/pdfium" name="lp-huawei-omap4/android_external_pdfium" />
+	<project path="external/chromium_org/third_party/boringssl/src" name="lp-huawei-omap4/android_external_chromium_org_third_party_boringssl_src" />
+
+</manifest>
