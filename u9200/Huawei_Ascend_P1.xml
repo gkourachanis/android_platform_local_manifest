@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="LP-U9200"
-			fetch="https://github.com/"
-			revision="cm-12.1" />
+<!-- 	<remote name="LP-U9200" -->
+<!-- 			fetch="https://github.com/" -->
+<!-- 			revision="cm-12.1" /> -->
+
+	<remote name="AOSP"
+			fetch="https://android.googlesource.com/"
+			revision="master" />
+
+	<remote name="SSL"
+			fetch="https://boringssl.googlesource.com/"
+			revision="master" />
 
 	<!-- remove projects -->
 	<remove-project name="LineageOS/android_build" />
@@ -161,18 +169,17 @@
 	<project path="packages/providers/DownloadProvider" name="lp-huawei-omap4/android_packages_providers_DownloadProvider" />
 	<project path="external/sfntly" name="lp-huawei-omap4/android_external_sfntly" />
 	<project path="external/pdfium" name="lp-huawei-omap4/android_external_pdfium" />
-<!-- 	<project name="lp-huawei-omap4/android_build_scripts" path="scripts" remote="github" revision="cm-12.1" > -->
-<!-- 		<copyfile src="build_U9200_5.1.1" dest="build_U9200_5.1.1" /> -->
-<!-- 		<copyfile src="build_U9500_5.1.1" dest="build_U9500_5.1.1" /> -->
-<!-- 	</project> -->
 
-	<project path="external/dnsmasq" name="lp-huawei-omap4/android_external_dnsmasq" />
-	<project path="external/chromium_org/third_party/boringssl/src" name="google/boringssl" revision="master" />
+	<!-- add projects from LineageOS with different revision -->
 	<project path="external/mksh" name="LineageOS/android_external_mksh" revision="cm-14.1" />
+	<project path="external/bash" name="LineageOS/android_external_bash" revision="cm-14.1" />
 
 	<!-- add projects from github.com/gkourachanis -->
-	<project name="gkourachanis/android_external_bash" path="external/bash" revision="master" />
 	<project name="gkourachanis/device_huawei_U9200" path="device/huawei/viva" />
 	<project name="gkourachanis/android_vendor_cm" path="vendor/cm" />
+
+	<!-- add projects from googlesource.com -->
+	<project path="external/chromium_org/third_party/boringssl/src" name="boringssl" remote="SSL" />
+	<project path="external/dnsmasq" name="platform/external/dnsmasq" remote="AOSP" />
 
 </manifest>
