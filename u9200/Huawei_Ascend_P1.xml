@@ -125,7 +125,6 @@
 	<project path="packages/apps/Perception" name="lp-huawei-omap4/android_packages_apps_Perception" />
 	<project path="packages/providers/ThemesProvider" name="lp-huawei-omap4/android_packages_providers_ThemesProvider" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="lp-huawei-omap4/gcc-linaro" revision="gcc-6.3" />
-	<project path="vendor/cm" name="lp-huawei-omap4/android_vendor_cm" />
 	<project name="lp-huawei-omap4/android_kernel_d1_p1" path="kernel/huawei/omap4" />
 	<project name="lp-huawei-omap4/device_huawei_omap4-common" path="device/huawei/omap4-common" />
 	<project name="lp-huawei-omap4/vendor_huawei_omap4-common" path="vendor/huawei/omap4-common" />
@@ -162,16 +161,18 @@
 	<project path="packages/providers/DownloadProvider" name="lp-huawei-omap4/android_packages_providers_DownloadProvider" />
 	<project path="external/sfntly" name="lp-huawei-omap4/android_external_sfntly" />
 	<project path="external/pdfium" name="lp-huawei-omap4/android_external_pdfium" />
-	<project path="external/chromium_org/third_party/boringssl/src" name="lp-huawei-omap4/android_external_chromium_org_third_party_boringssl_src" />
-	<project name="lp-huawei-omap4/android_build_scripts" path="scripts" remote="github" revision="cm-12.1" >
-		<copyfile src="build_U9200_5.1.1" dest="build_U9200_5.1.1" />
-		<copyfile src="build_U9500_5.1.1" dest="build_U9500_5.1.1" />
-	</project>
-	<project path="external/bash" name="lp-huawei-omap4/android_external_bash" />
+<!-- 	<project name="lp-huawei-omap4/android_build_scripts" path="scripts" remote="github" revision="cm-12.1" > -->
+<!-- 		<copyfile src="build_U9200_5.1.1" dest="build_U9200_5.1.1" /> -->
+<!-- 		<copyfile src="build_U9500_5.1.1" dest="build_U9500_5.1.1" /> -->
+<!-- 	</project> -->
+
 	<project path="external/dnsmasq" name="lp-huawei-omap4/android_external_dnsmasq" />
-	<project path="external/mksh" name="lp-huawei-omap4/android_external_mksh" />
+	<project path="external/chromium_org/third_party/boringssl/src" name="google/boringssl" revision="master" />
+	<project path="external/mksh" name="LineageOS/android_external_mksh" revision="cm-14.1" />
 
 	<!-- add projects from github.com/gkourachanis -->
+	<project name="gkourachanis/android_external_bash" path="external/bash" revision="master" />
 	<project name="gkourachanis/device_huawei_U9200" path="device/huawei/viva" />
+	<project name="gkourachanis/android_vendor_cm" path="vendor/cm" />
 
 </manifest>
