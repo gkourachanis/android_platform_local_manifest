@@ -102,6 +102,9 @@
 	<remove-project name="platform/external/sfntly" />
 	<remove-project name="platform/external/pdfium" />
 	<remove-project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" />
+	<remove-project name="LineageOS/android_external_bash" />
+	<remove-project name="LineageOS/android_external_dnsmasq"/>
+	<remove-project name="LineageOS/android_external_mksh" />
 
 	<!-- add projects from github.com/lp-huawei-omap4 -->
 	<project path="build" name="lp-huawei-omap4/android_build" groups="pdk,tradefed" >
@@ -119,7 +122,7 @@
 	<project path="packages/apps/Settings" name="lp-huawei-omap4/android_packages_apps_Settings" />
 	<project path="packages/apps/Snap" name="lp-huawei-omap4/android_packages_apps_Snap" />
 	<project path="packages/apps/ThemeChooser" name="lp-huawei-omap4/android_packages_apps_ThemeChooser" />
-	<project path="packages/apps/Trebuchet" name="lp-huawei-omap4/android_packages_apps_Trebuchet" />
+	<project path="packages/apps/Perception" name="lp-huawei-omap4/android_packages_apps_Perception" />
 	<project path="packages/providers/ThemesProvider" name="lp-huawei-omap4/android_packages_providers_ThemesProvider" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="lp-huawei-omap4/gcc-linaro" revision="gcc-6.3" />
 	<project path="vendor/cm" name="lp-huawei-omap4/android_vendor_cm" />
@@ -160,6 +163,13 @@
 	<project path="external/sfntly" name="lp-huawei-omap4/android_external_sfntly" />
 	<project path="external/pdfium" name="lp-huawei-omap4/android_external_pdfium" />
 	<project path="external/chromium_org/third_party/boringssl/src" name="lp-huawei-omap4/android_external_chromium_org_third_party_boringssl_src" />
+	<project name="lp-huawei-omap4/android_build_scripts" path="scripts" remote="github" revision="cm-12.1" >
+		<copyfile src="build_U9200_5.1.1" dest="build_U9200_5.1.1" />
+		<copyfile src="build_U9500_5.1.1" dest="build_U9500_5.1.1" />
+	</project>
+	<project path="external/bash" name="lp-huawei-omap4/android_external_bash" />
+	<project path="external/dnsmasq" name="lp-huawei-omap4/android_external_dnsmasq" />
+	<project path="external/mksh" name="lp-huawei-omap4/android_external_mksh" />
 
 	<!-- add projects from github.com/gkourachanis -->
 	<project name="gkourachanis/device_huawei_U9200" path="device/huawei/viva" />
