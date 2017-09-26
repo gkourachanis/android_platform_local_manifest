@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remove-project name="LineageOS/android_kernel_lge_v4xx" />
+	<project name="gkourachanis/linux" path="kernel/lge/v4xx" revision="lineage-15.0" />
+
+	<remove-project name="LineageOS/android_device_lge_v4xx-common" />
+	<project name="gkourachanis/android_device_lge_v4xx-common" path="device/lge/v4xx-common" revision="lineage-15.0" />
+
+	<remove-project name="LineageOS/android_device_lge_v490" />
+	<project name="gkourachanis/android_device_lge_v490" path="device/lge/v490" revision="lineage-15.0" />
+
+</manifest>

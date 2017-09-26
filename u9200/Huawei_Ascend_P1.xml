@@ -5,13 +5,13 @@
 <!-- 			fetch="https://github.com/" -->
 <!-- 			revision="cm-12.1" /> -->
 
-	<remote name="AOSP"
-			fetch="https://android.googlesource.com/"
-			revision="master" />
+<!-- 	<remote name="SSL" -->
+<!-- 			fetch="https://boringssl.googlesource.com/" -->
+<!-- 			revision="master" /> -->
 
-	<remote name="SSL"
-			fetch="https://boringssl.googlesource.com/"
-			revision="master" />
+<!-- 	<remote name="AOSP" -->
+<!-- 			fetch="https://android.googlesource.com/" -->
+<!-- 			revision="oreo-cts-release" /> -->
 
 	<!-- remove projects -->
 	<remove-project name="LineageOS/android_build" />
@@ -169,6 +169,7 @@
 	<project path="packages/providers/DownloadProvider" name="lp-huawei-omap4/android_packages_providers_DownloadProvider" />
 	<project path="external/sfntly" name="lp-huawei-omap4/android_external_sfntly" />
 	<project path="external/pdfium" name="lp-huawei-omap4/android_external_pdfium" />
+	<project path="external/dnsmasq" name="lp-huawei-omap4/android_external_dnsmasq" />
 
 	<!-- add projects from LineageOS with different revision -->
 	<project path="external/mksh" name="LineageOS/android_external_mksh" revision="cm-14.1" />
@@ -179,7 +180,6 @@
 	<project name="gkourachanis/android_vendor_cm" path="vendor/cm" />
 
 	<!-- add projects from googlesource.com -->
-	<project path="external/chromium_org/third_party/boringssl/src" name="boringssl" remote="SSL" />
-	<project path="external/dnsmasq" name="platform/external/dnsmasq" remote="AOSP" />
+	<project path="external/chromium_org/third_party/boringssl" name="platform/external/boringssl" remote="aosp" revision="oreo-cts-release" />
 
 </manifest>

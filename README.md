@@ -6,3 +6,4 @@ So far, the list consists of:
 
 # Devices:
 1) Huawei Ascend P1
+2) LG G Pad 8.0 LTE
